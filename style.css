@@ -1,0 +1,28 @@
+html {
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+  background: whitesmoke;
+}
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+.image-container {
+  margin: 10px 30%;
+}
+.image-container img {
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+/* Media Query: Large Smartphone */
+@media screen and (max-width: 600px) {
+  h1 {
+    font-size: 20px;
+  }
+  .image-container {
+    margin: 10px;
+  }
+}
